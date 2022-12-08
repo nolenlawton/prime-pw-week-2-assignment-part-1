@@ -24,19 +24,19 @@ var luckyNumber = 8;
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
 
-console.log('My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!')
+console.log('My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!');
 
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
-var adventurous = true
+var adventurous = true;
 
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 
-var food = "pizza"
+var food = "pizza";
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 
-var pets = 3
+var pets = 3;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
