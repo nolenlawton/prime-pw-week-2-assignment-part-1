@@ -26,6 +26,7 @@ let luckyNumber = 8;
 
 console.log('My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!');
 
+
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 
 let adventurous = true;
@@ -36,7 +37,7 @@ let food = "pizza";
 
 // 9 - Create a variable called `pets` and set it to the value of the number of pets you have
 
-let pets = 1;
+let pets = 3;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 
@@ -48,7 +49,7 @@ pets += 2;
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 
-const allowedPets = 3;
+const allowedPets = 5;
 
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
@@ -63,7 +64,7 @@ else{
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
 
-if(luckyNumber == 2 && adventurous){
+if(luckyNumber === 2 && adventurous){
     console.log('Roll the dice!');
 }
 
@@ -98,6 +99,8 @@ if(pets && friendsPets){
     console.log(mostPets);
 }
 
+
+
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
 //      "Second is the best" if your lucky number is 2
@@ -120,5 +123,9 @@ switch(luckyNumber){
 }
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+// 
+// - Create a conditional: if adventurous is true, console log "Adventures are great!", 
+// if it's not true, console log "How about we stay home?"
 
-
+let adventurousTernary = adventurous ? "Adventures are great!" : "How about we stay home?";
+console.log(adventurousTernary);
